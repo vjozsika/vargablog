@@ -1,14 +1,12 @@
 ---
-title: Vargablog
+title: Erster Eintrag
 date: 2025-01-11
 draft: false
 tags:
-- vargablog
-- blog
+  - vargablog
+  - blog
 ---
-
-*adhjahkd*
-**adshajdkajdh**
+Mein erstes Post. 
 
 Image:
 !![Image Description](/images/Pasted%20image%2020250111182206.png)
