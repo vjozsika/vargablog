@@ -50,7 +50,7 @@
   </url><url>
     <loc>/posts/sonntag/</loc>
   </url><url>
-    <loc>/posts/template-seite/</loc>
+    <loc>/posts/schreiben-ist-wichtig/</loc>
   </url><url>
     <loc>/categories/</loc>
     <xhtml:link
@@ -63,5 +63,7 @@
                 hreflang="de"
                 href="/categories/"
                 />
+  </url><url>
+    <loc>/tags/stifte/</loc>
   </url>
 </urlset>
