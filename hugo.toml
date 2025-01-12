@@ -1,7 +1,6 @@
 baseurl = "/"
-languageCode = "de"
-DefaultContentLanguage = "de"
-titl="Varga Blog"
+languageCode = "en-en"
+title="Varga Blog"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
 theme = "terminal"
@@ -30,7 +29,8 @@ paginate = 5
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
+  enableGitInfo = true
+  showLastUpdated = true
 
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
   # updatedDatePrefix = "Updated"
@@ -67,37 +67,36 @@ paginate = 5
   # do not include @
   creator = ""
   site = ""
-
 [languages]
-  [languages.de]
-    languageName = "German"
+  [languages.en]
+    languageName = "English"
     title = "Terminal"
 
-    [languages.de.params]
+    [languages.en.params]
       subtitle = "A simple, retro theme for Hugo"
       owner = ""
       keywords = ""
       copyright = ""
-      menuMore = "Mehr anzeige"
-      readMore = "Weiterlesen"
-      readOtherPosts = "Andere Posts lesen"
-      newerPosts = "Neuere Posts"
-      olderPosts = "Ältere Posts"
-      missingContentMessage = "Seite nicht gefunden..."
-      missingBackButtonLabel = "Zurück zu Home"
-      minuteReadingTime = "Lesezeit Min"
-      words = "Wörter"
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"
 
-      [languages.de.params.logo]
+      [languages.en.params.logo]
         logoText = "Terminal"
         logoHomeLink = "/"
 
-      [languages.de.menu]
+      [languages.en.menu]
         [[languages.en.menu.main]]
           identifier = "about"
-          name = "Über"
+          name = "About"
           url = "/about"
-        [[languages.de.menu.main]]
+        [[languages.en.menu.main]]
           identifier = "showcase"
           name = "Showcase"
           url = "/showcase"
