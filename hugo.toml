@@ -1,10 +1,11 @@
 baseurl = "/"
-languageCode = "en-us"
+languageCode = "de"
+DefaultContentLanguage = "de"
+titl="Varga Blog"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
 theme = "terminal"
 paginate = 5
-
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
@@ -68,35 +69,35 @@ paginate = 5
   site = ""
 
 [languages]
-  [languages.en]
-    languageName = "English"
+  [languages.de]
+    languageName = "German"
     title = "Terminal"
 
-    [languages.en.params]
+    [languages.de.params]
       subtitle = "A simple, retro theme for Hugo"
       owner = ""
       keywords = ""
       copyright = ""
-      menuMore = "Show more"
-      readMore = "Read more"
-      readOtherPosts = "Read other posts"
-      newerPosts = "Newer posts"
-      olderPosts = "Older posts"
-      missingContentMessage = "Page not found..."
-      missingBackButtonLabel = "Back to home page"
-      minuteReadingTime = "min read"
-      words = "words"
+      menuMore = "Mehr anzeige"
+      readMore = "Weiterlesen"
+      readOtherPosts = "Andere Posts lesen"
+      newerPosts = "Neuere Posts"
+      olderPosts = "Ältere Posts"
+      missingContentMessage = "Seite nicht gefunden..."
+      missingBackButtonLabel = "Zurück zu Home"
+      minuteReadingTime = "Lesezeit Min"
+      words = "Wörter"
 
-      [languages.en.params.logo]
+      [languages.de.params.logo]
         logoText = "Terminal"
         logoHomeLink = "/"
 
-      [languages.en.menu]
+      [languages.de.menu]
         [[languages.en.menu.main]]
           identifier = "about"
-          name = "About"
+          name = "Über"
           url = "/about"
-        [[languages.en.menu.main]]
+        [[languages.de.menu.main]]
           identifier = "showcase"
           name = "Showcase"
           url = "/showcase"

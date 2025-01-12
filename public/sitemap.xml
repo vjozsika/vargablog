@@ -1,33 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>/tags/blog/</loc>
-    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/blog/</loc>
-    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/vargablog/</loc>
-    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/zweite/</loc>
-    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/zweite/</loc>
-    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/posts/erste-blogseite/</loc>
-  </url><url>
-    <loc>/categories/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>/de/sitemap.xml</loc>
+    
+      <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
